@@ -1,5 +1,6 @@
-# Project Title
-**A Travel attractions recommendation system that suggests tourists to the attractions to visit based on their choices.**
+# Project Title : Tourist Recommendation System
+
+**A Tourist attractions recommendation system that suggests tourists to the attractions to visit based on their choices.**
 
 Description
 The primary objective is to suggest tourist attractions to the user by considering many factors which are essential to make the recommender system a successful model. Then the model is implemented on a chatbot to enhance user experience. 
