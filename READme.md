@@ -5,13 +5,13 @@ Description
 The primary objective is to suggest tourist attractions to the user by considering many factors which are essential to make the recommender system a successful model. Then the model is implemented on a chatbot to enhance user experience. 
 We used different techniques to create multiple models for recommender systems and choose our best model as per their performance.
 
-Software used
+## Software used
 * Python version 3.7
 * Google Cobal for implementation of  recommender system
 * Google Dialogflow for implementing the chatbot
 * Jupyter notebook to integrate flask framework to integrate python code to the chatbot
 
-Libraries used: 
+## Libraries used: 
 * scikit-learn
 * re
 * nltk
@@ -28,7 +28,7 @@ Libraries used:
 * flask
 
 
-Code references:
+## Code references:
 
 * attraction_scrapping.ipynb: This code is used to scrape data from Trip Advisor Webpage.
 * comments_10location.ipynb: This code is used for scrapping user comments for different location.the data is been scrapped from trip advisor.
@@ -47,12 +47,13 @@ Models Implemented using this technique are:
 * Based on the time of year user wants to visit
 * Based on mixed features(Previously visited location)
 * Classification based recommender system.ipynb: This model is based on using supervised machine learning algorithms.We calculate accuracy and then choose our champion model. Based on the results, we do predictions with the testing labels and analyse the outputs.
-The algorithms used are:
+
+## The algorithms used are:
 * Support Vector Machine
 * K-nearest neighbour
 * Decision Tree
 
-Contributors:
+## Contributors:
 * Yusri Al-Sanaani​ 
 * Hetvi Soni​ 
 * Tavleen Kour​ 
