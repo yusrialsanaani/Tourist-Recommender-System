@@ -63,8 +63,7 @@ The diagram below shows the design flow of CBF recommender system using Clusteri
 
 ### **Results sample for CBF Using Clustering:**
 
-![image](https://user-images.githubusercontent.com/89004966/171490049-2356ef04-8ba3-4bc4-985a-dbeb0328e35b.png)
-
+![image](https://user-images.githubusercontent.com/89004966/171508794-9af35f63-0ee7-4e21-8997-25c22a82239d.png)
 
 ## Collaborative Filtering (CF)
 
