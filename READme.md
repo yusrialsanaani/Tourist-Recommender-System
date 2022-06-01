@@ -2,9 +2,103 @@
 
 **A Tourist attractions recommendation system that suggests tourists to the attractions to visit based on their choices.**
 
-Description
-The primary objective is to suggest tourist attractions to the user by considering many factors which are essential to make the recommender system a successful model. Then the model is implemented on a chatbot to enhance user experience. 
-We used different techniques to create multiple models for recommender systems and choose our best model as per their performance.
+**Description**
+
+Implement a recommendation system based on content and collaborative filtering, leveraging many algorithms to provide different prediction features such as providing recommendations based on:
+- Attraction type
+- Targeted province
+- The best time to visit the attraction
+- Multiple combined features
+
+Resulting with multi functional recommender system that based on content, context and ratings.
+
+Choosing the best performing model and implemented a chatbot for it. Therefore, the recommender system turned out to be very useful and convenient to use for the tourists.
+
+The Recommender System RS Framework is shown below:
+
+![image](https://user-images.githubusercontent.com/89004966/171489035-854e7d15-908c-4ce1-998a-3b31ed21c140.png)
+
+**Models Created:**
+- Content based model based on:
+  - The type of location.
+  - The province of location.
+  - The best time to visit.
+  - Multiple combined features.
+  - K-means clustering algorithm for unsupervised learning.
+- Collaborative filtering model based on: 
+  - Multiple classification algorithms in Scikit-learn Library for supervised learning.
+  - Multiple algorithms in Surprise Library
+
+**Dataset Perpetration**
+We scrapped the trip advisor website and then added modifications to it to get the desired dataset as per our requirements.
+
+## **Content Based Filtering (CBF)**
+
+![image](https://user-images.githubusercontent.com/89004966/171489575-4b8a3a94-e3db-417e-a17a-696bb7e3f258.png)
+
+### CBF Using Cosine Similarity
+We created the following models based on cosine similarity: 
+- Location Type
+- Province
+- Best time to visit
+- Combined features where feature are location_type, provience, cost, best_time_to_visit, ratings
+
+![image](https://user-images.githubusercontent.com/89004966/171489745-e4d5d405-6b40-495f-afce-3980425a2acb.png)
+
+**Results sample for content-based model for combined features:**
+
+![image](https://user-images.githubusercontent.com/89004966/171489843-7649e001-e2e4-44cc-adcc-3f33effda1c2.png)
+
+### CBF Using Clustering
+
+![image](https://user-images.githubusercontent.com/89004966/171489982-5a053448-bd08-4f4f-a83f-24fa1fb1f691.png)
+
+
+![image](https://user-images.githubusercontent.com/89004966/171490010-a2c3608e-2b72-458b-b9ba-8a45d2c19c4f.png)
+
+
+![image](https://user-images.githubusercontent.com/89004966/171490049-2356ef04-8ba3-4bc4-985a-dbeb0328e35b.png)
+
+![image](https://user-images.githubusercontent.com/89004966/171490099-1f4a7625-e9b7-4204-b473-4fed99e13819.png)
+
+## Collaborative Filtering (CF)
+
+![image](https://user-images.githubusercontent.com/89004966/171490169-9508b102-5ba4-4b32-a5fe-bf4e01a80d9f.png)
+
+**CF Using Scikit Learn Library**
+
+We performed classification for two cases: 
+- Model 1: Using user id as labels
+- Model 2: Using Location type id as labels
+
+We choose model 2 as our model since it shows better results.
+
+Algorithms used are: 
+SVM, KNN and Decision Tree (Supervised learning)
+
+Champion Model: 
+SVM
+
+![image](https://user-images.githubusercontent.com/89004966/171490395-0d51961d-037d-4fe3-8e68-7b2480ded502.png)
+
+**CF Using Surprise Library**
+
+![image](https://user-images.githubusercontent.com/89004966/171490478-f1cfd09e-9180-4841-86bd-33754de41c04.png)
+
+**Recommendations Predictions:**
+
+![image](https://user-images.githubusercontent.com/89004966/171490564-c0bbcae2-df65-4fe2-a1ce-4f28d7e8a49d.png)
+
+
+## Chatbot Implementation
+
+![image](https://user-images.githubusercontent.com/89004966/171490709-0c1c70b3-fb26-4d82-bf7a-e6bb443cf783.png)
+
+![image](https://user-images.githubusercontent.com/89004966/171490744-93733ebb-508a-4cb0-be8c-fde055a548fd.png)
+
+![image](https://user-images.githubusercontent.com/89004966/171490761-29cf4865-6c2e-4992-bc1c-8e6232525ae8.png)
+
+
 
 ## Software used
 * Python version 3.7
@@ -13,20 +107,7 @@ We used different techniques to create multiple models for recommender systems a
 * Jupyter notebook to integrate flask framework to integrate python code to the chatbot
 
 ## Libraries used: 
-* scikit-learn
-* re
-* nltk
-* pandas
-* numpy
-* seaborn
-* beautiful Soup
-* url open
-* requests
-* plotly
-* dash
-* matplot
-* surprise
-* flask
+scikit-learn | re | nltk | pandas | numpy | seaborn | beautiful Soup | url open | requests | plotly | dash | matplot | surprise | flask
 
 
 ## Code references:
