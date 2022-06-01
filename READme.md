@@ -141,10 +141,3 @@ Models Implemented using this technique are:
 * Support Vector Machine
 * K-nearest neighbour
 * Decision Tree
-
-## Contributors:
-* Yusri Al-Sanaani​ 
-* Hetvi Soni​ 
-* Tavleen Kour​ 
-* Immanuella Iyawe
-* 
