@@ -29,7 +29,7 @@ The Recommender System (RS) Framework is shown below:
   - Multiple classification algorithms in Scikit-learn Library for supervised learning.
   - Multiple algorithms in Surprise Library
 
-## **Dataset Perpetration:**
+## **Dataset Preparation:**
 
 The dataset used in the trainging was scrapped from the trip advisor website. Then, the dataset has been processed and modified to get the desired dataset as per our requirements.
 
